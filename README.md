@@ -1,6 +1,6 @@
 ### Hi there 👋
 # <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">Hi, I'm Desperado 👨‍💻
-- 👨🏻‍💻 I'm studying at Ha Noi University Of Science And Technology.
+- 👨🏻‍💻 Programming is like sex. One mistake and you have to support it for the rest of your life.
 
 
 <p align="left">
