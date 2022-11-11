@@ -7,8 +7,8 @@
 <h3 align="left">Connect with me:</h3>
 
 * <a href="https://github.com/anhdenday" target="blank">![Github](https://img.shields.io/badge/-Github-fff?&logo=Github&logoColor=000000)</a>
-* <a href="https://www.facebook.com/tran.vien.2509" target="blank">![FB](https://img.shields.io/badge/-facebook-fff?&logo=facebook&logoColor=4169e1)</a> 
-* <a href="tranvanvien98bg@gmail.com" target="blank">![mail](https://img.shields.io/badge/-gmail-fff?&logo=gmail&logoColor=ff4500) </a>
+* <a href="https://www.facebook.com" target="blank">![FB](https://img.shields.io/badge/-facebook-fff?&logo=facebook&logoColor=4169e1)</a> 
+* <a href="desperado82vn@gmail.com" target="blank">![mail](https://img.shields.io/badge/-gmail-fff?&logo=gmail&logoColor=ff4500) </a>
 
 ### Languages
 [![Python](https://img.shields.io/badge/-Python-fff?&logo=python)](https://github.com/anhdenday?tab=repositories&q=&type=&language=python)
