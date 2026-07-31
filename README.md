@@ -57,12 +57,11 @@
 ### 📊 My GitHub Journey
 
 <p align="center">
-  <img height="180"src="https://github-readme-stats.vercel.app/api?username=anhdenday&show_icons=true&include_all_commits=true&count_private=true&theme=nord&hide_border=false" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&hide=html,css&theme=nord&hide_border=false" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhdenday&theme=nord" />
+  <!-- GitHub Stats Card -->
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=anhdenday&show_icons=true&include_all_commits=true&count_private=true&theme=nord&hide_border=false" alt="Desperado's GitHub Stats" />
+  
+  <!-- Top Languages Card -->
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&hide=html,css&theme=nord&hide_border=false" alt="Desperado's Top Languages" />
 </p>
 
 ---
