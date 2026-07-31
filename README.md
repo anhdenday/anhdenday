@@ -5,7 +5,7 @@
 ### 🔗 Connect with me
 
 [![Github](https://img.shields.io/badge/-GitHub-fff?style=flat&logo=github&logoColor=181717)](https://github.com/anhdenday)
-[![Facebook](https://img.shields.io/badge/-Facebook-fff?style=flat&logo=facebook&logoColor=1877F2)](https://www.facebook.com/your.profile)
+[![Facebook](https://img.shields.io/badge/-Facebook-fff?style=flat&logo=facebook&logoColor=1877F2)](https://www.facebook.com/desperado.camnv/)
 [![Gmail](https://img.shields.io/badge/-Gmail-fff?style=flat&logo=gmail&logoColor=EA4335)](mailto:desperado82vn@gmail.com)
 
 ### 💻 Languages
@@ -31,5 +31,5 @@
 
 ### 📊 GitHub Stats
 
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=anhdenday&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide_border=true&theme=graywhite" />
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&hide=html,css&hide_title=true&hide_border=true&theme=graywhite" />
+<img height="150" src="https://github-stats-extended.vercel.app/api?username=anhdenday&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide_border=true&theme=graywhite" />
+<img height="150" src="https://github-stats-extended.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&hide=html,css&hide_title=true&hide_border=true&theme=graywhite" />
