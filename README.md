@@ -1,28 +1,35 @@
-### Hi there 👋
-# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">Hi, I'm Desperado 👨‍💻
-- 👨🏻‍💻 Programming is like sex. One mistake and you have to support it for the rest of your life.
+# <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30"> Hi, I'm Desperado 👨‍💻
 
+> 👨🏻‍💻 Programming is like sex: one mistake and you support it for the rest of your life.
 
-<p align="left">
-<h3 align="left">Connect with me:</h3>
+### 🔗 Connect with me
 
-* <a href="https://github.com/anhdenday" target="blank">![Github](https://img.shields.io/badge/-Github-fff?&logo=Github&logoColor=000000)</a>
-* <a href="https://www.facebook.com" target="blank">![FB](https://img.shields.io/badge/-facebook-fff?&logo=facebook&logoColor=4169e1)</a> 
-* <a href="desperado82vn@gmail.com" target="blank">![mail](https://img.shields.io/badge/-gmail-fff?&logo=gmail&logoColor=ff4500) </a>
+[![Github](https://img.shields.io/badge/-GitHub-fff?style=flat&logo=github&logoColor=181717)](https://github.com/anhdenday)
+[![Facebook](https://img.shields.io/badge/-Facebook-fff?style=flat&logo=facebook&logoColor=1877F2)](https://www.facebook.com/your.profile)
+[![Gmail](https://img.shields.io/badge/-Gmail-fff?style=flat&logo=gmail&logoColor=EA4335)](mailto:desperado82vn@gmail.com)
 
-### Languages
-[![Python](https://img.shields.io/badge/-Python-fff?&logo=python)](https://github.com/anhdenday?tab=repositories&q=&type=&language=python)
-[![C](https://img.shields.io/badge/-C-fff?&logo=C)](https://github.com/anhdenday?tab=repositories&q=&type=&language=c)
-[![Java](https://img.shields.io/badge/-Java-fff?&logo=Java&logoColor=007396)](https://github.com/anhdenday?tab=repositories&q=&type=&language=java)
-[![Php](https://img.shields.io/badge/-Php-fff?&logo=Php&logoColor=007396)](https://github.com/anhdenday?tab=repositories&q=&type=&language=Php)
+### 💻 Languages
 
-### Framework
+[![Python](https://img.shields.io/badge/-Python-fff?style=flat&logo=python&logoColor=3776AB)](https://github.com/anhdenday?tab=repositories&language=python)
+[![C](https://img.shields.io/badge/-C-fff?style=flat&logo=c&logoColor=A8B9CC)](https://github.com/anhdenday?tab=repositories&language=c)
+[![Java](https://img.shields.io/badge/-Java-fff?style=flat&logo=openjdk&logoColor=007396)](https://github.com/anhdenday?tab=repositories&language=java)
+[![PHP](https://img.shields.io/badge/-PHP-fff?style=flat&logo=php&logoColor=777BB4)](https://github.com/anhdenday?tab=repositories&language=php)
 
-![TF](https://img.shields.io/badge/-Tensorflow-fff?&logo=Tensorflow&logoColor=ff7f00)  ![keras](https://img.shields.io/badge/-Keras-fff?&logo=Keras&logoColor=ff4500) ![pytorch](https://img.shields.io/badge/-Pytorch-fff?&logo=Pytorch&logoColor=ff4500)
-![Flask](https://img.shields.io/badge/-Flask-fff?&logo=Flask&logoColor=000000) 
-![opencv](https://img.shields.io/badge/-Opencv-fff?&logo=Opencv&logoColor=007396)
-![mysql](https://img.shields.io/badge/-Mysql-fff?&logo=Mysql&logoColor=4876ff) ![mongo](https://img.shields.io/badge/-Mongodb-fff?&logo=Mongodb&logoColor=76ee00)
-![github](https://img.shields.io/badge/-Github-fff?&logo=Github&logoColor=000000)
+### 🧠 AI / ML
 
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-fff?style=flat&logo=tensorflow&logoColor=FF6F00)
+![Keras](https://img.shields.io/badge/-Keras-fff?style=flat&logo=keras&logoColor=D00000)
+![PyTorch](https://img.shields.io/badge/-PyTorch-fff?style=flat&logo=pytorch&logoColor=EE4C2C)
+![OpenCV](https://img.shields.io/badge/-OpenCV-fff?style=flat&logo=opencv&logoColor=5C3EE8)
 
-<img height="137.3px" src="https://github-readme-stats.vercel.app/api?username=Desperado&hide_title=true&hide_border=true&show_icons=true&include_all_commits=true&count_private=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" /><!-- wi*quL3fcV --><img height="137.3px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Desperado&hide=html&hide_title=true&hide_border=true&layout=compact&langs_count=7&exclude_repo=comp426&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+### 🛠 Backend & Data
+
+![Flask](https://img.shields.io/badge/-Flask-fff?style=flat&logo=flask&logoColor=000000)
+![MySQL](https://img.shields.io/badge/-MySQL-fff?style=flat&logo=mysql&logoColor=4479A1)
+![MongoDB](https://img.shields.io/badge/-MongoDB-fff?style=flat&logo=mongodb&logoColor=47A248)
+![Git](https://img.shields.io/badge/-Git-fff?style=flat&logo=git&logoColor=F05032)
+
+### 📊 GitHub Stats
+
+<img height="150" src="https://github-readme-stats.vercel.app/api?username=anhdenday&show_icons=true&include_all_commits=true&count_private=true&hide_title=true&hide_border=true&theme=graywhite" />
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&hide=html,css&hide_title=true&hide_border=true&theme=graywhite" />
