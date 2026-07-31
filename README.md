@@ -57,13 +57,53 @@
 ### 📊 My GitHub Journey
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=anhdenday&show_icons=true&include_all_commits=true&count_private=true&theme=nord&hide_border=false" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&hide=html,css&theme=nord&hide_border=false" alt="Top Languages" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=anhdenday&show_icons=true&count_private=true&theme=nord&hide_border=false&cache_seconds=1800" alt="GitHub Stats" />
+  <img height="180" src="https://streak-stats.demolab.com/?user=anhdenday&theme=nord&hide_border=false" alt="GitHub Streak" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhdenday&theme=nord" alt="Contribution Graph" />
 </p>
+
+<!--
+  GHI CHÚ KỸ THUẬT — đọc trước khi sửa mấy URL ở trên.
+
+  1) KHÔNG thêm lại `include_all_commits=true`.
+     Bản deploy `github-readme-stats-sigma-five` CỘNG TRÙNG: nó lấy số commit
+     all-time từ Search API rồi CỘNG THÊM số commit của năm nay.
+     Đo được: 101 (all-time) + 22 (năm nay) = 123, trong khi thực tế chỉ có 102.
+
+  2) `count_private=true` chỉ chạy khi đã bật:
+     Settings -> Profile -> Contributions & Activity
+       -> tick "Include private contributions on my profile"
+     ĐÃ BẬT ngày 2026-07-31. Trước khi bật: Total Commits = 22.
+     Sau khi bật: Total Commits = 929. Mọi repo đang làm việc (yenora-tech/*)
+     đều private nên nếu tắt setting này thì gần như không đếm được gì.
+
+  3) `cache_seconds=1800` KHÔNG phải để đổi TTL (mirror vẫn trả max-age=7200),
+     mà để tạo cache key mới -> phá cache Vercel đang giữ số cũ. Nếu sau này
+     đổi setting trên GitHub mà card vẫn hiện số cũ, đổi giá trị này (vd 1801)
+     là ép fetch lại ngay thay vì chờ 2 tiếng.
+
+  4) Card "Most Used Languages" đã bị bỏ vì nó hiện "ASP.NET 100%" — sai.
+     Card chỉ đọc repo non-fork public; repo duy nhất có code là `owllee`, trong
+     đó có 17 file .axd (ScriptResource.axd / WebResource.axd — rác save-page-as
+     của một site ASP.NET WebForms) bị Linguist đếm là ASP.NET. Thêm
+     `hide=html,css` che 2 language còn lại nên chỉ còn ASP.NET = 100%.
+
+     Bật lại cho ĐÚNG:
+       a. Thêm .gitattributes vào repo owllee:
+            HTX/**       linguist-vendored
+            *.axd        linguist-detectable=false
+            *.download   linguist-detectable=false
+       b. Self-host github-readme-stats bằng PAT scope `repo` của mình (để card
+          đọc được private repo), rồi dùng lại:
+            https://<domain-cua-ban>/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&theme=nord
+-->
+
+<!-- Card cũ, chỉ bật lại sau khi làm xong bước (4) ở trên:
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&theme=nord&hide_border=false" alt="Top Languages" />
+-->
 
 ---
 
