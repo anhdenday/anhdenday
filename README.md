@@ -31,7 +31,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-light.svg" />
-    <img src="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-dark.svg" width="100%" alt="Tech stack — Languages: Python, C, Java, PHP · AI / ML: TensorFlow, Keras, PyTorch, OpenCV · Backend & Data: Flask, MySQL, MongoDB, Git" />
+    <img src="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-dark.svg" width="100%" alt="Tech stack — Languages: Python, C, Java, PHP · Frontend: React, Redux, TypeScript, Tailwind CSS · AI / ML: TensorFlow, Keras, PyTorch, OpenCV, LangChain, Qdrant, Neo4j · Backend & Data: Flask, FastAPI, Celery, Redis, MySQL, MongoDB, Docker, Git" />
   </picture>
 </p>
 
