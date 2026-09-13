@@ -1,112 +1,126 @@
-# 👨🏻‍💻 Hi there, I'm <samp>Desperado</samp> <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35" align="center">
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/header-light.svg" />
+  <img src="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/header-dark.svg" width="100%" alt="Desperado — Fullstack Developer · AI / ML Enthusiast · Vietnam" />
+</picture>
+
+<a href="https://github.com/anhdenday"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=48&lines=Fullstack+Developer;AI+%2F+ML+Enthusiast;Python+%C2%B7+TensorFlow+%C2%B7+PyTorch+%C2%B7+OpenCV;Based+in+Vietnam" alt="Fullstack Developer · AI / ML Enthusiast · Python · TensorFlow · PyTorch · OpenCV" /></a>
+
+<p>
+  <a href="https://github.com/anhdenday"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.facebook.com/desperado.camnv/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
+  <a href="mailto:desperado82vn@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<p>
+  <a href="https://github.com/anhdenday?tab=followers"><img src="https://img.shields.io/github/followers/anhdenday?label=Followers&logo=github&style=flat-square&color=58a6ff" alt="Followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=anhdenday&label=Profile%20views&color=58a6ff&style=flat-square" alt="Profile views" />
+</p>
+
+<sub><samp>“Programming is like sex: one mistake and you support it for the rest of your life.” — Unknown</samp></sub>
+
+</div>
+
+<br />
+
+<h3 align="center">🛠️ Tech Stack</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Fullstack_Developer-black?style=flat-square&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/-AI_/_ML_Enthusiast-orange?style=flat-square&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Located-Vietnam-blue?style=flat-square&logo=google-maps&logoColor=white" />
-  <br>
-  <img src="https://img.shields.io/github/followers/anhdenday?label=Followers&style=social" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-light.svg" />
+    <img src="https://raw.githubusercontent.com/anhdenday/anhdenday/main/assets/stack-dark.svg" width="100%" alt="Tech stack — Languages: Python, C, Java, PHP · AI / ML: TensorFlow, Keras, PyTorch, OpenCV · Backend & Data: Flask, MySQL, MongoDB, Git" />
+  </picture>
 </p>
 
-> <samp>“Programming is like sex: one mistake and you support it for the rest of your life.”</samp> — Unknown
+<br />
 
----
-
-### 🚀 Get in touch with me
-
-<p align="left">
-  <a href="https://github.com/anhdenday" target="_blank">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.facebook.com/desperado.camnv/" target="_blank">
-    <img src="https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="mailto:desperado82vn@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
----
-
-### 🛠 Languages & Frameworks
-
-<p align="left">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/-Python-black?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" />
-  <img src="https://img.shields.io/badge/-C-black?style=for-the-badge&logo=c&logoColor=A8B9CC" alt="C" />
-  <img src="https://img.shields.io/badge/-Java-black?style=for-the-badge&logo=oracle&logoColor=ED8B00" alt="Java" />
-  <img src="https://img.shields.io/badge/-PHP-black?style=for-the-badge&logo=php&logoColor=777BB4" alt="PHP" />
-  <br>
-
-  <!-- AI / ML -->
-  <img src="https://img.shields.io/badge/-TensorFlow-black?style=for-the-badge&logo=tensorflow&logoColor=FF6F00" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/-Keras-black?style=for-the-badge&logo=keras&logoColor=D00000" alt="Keras" />
-  <img src="https://img.shields.io/badge/-PyTorch-black?style=for-the-badge&logo=pytorch&logoColor=EE4C2C" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/-OpenCV-black?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-  <br>
-
-  <!-- Backend & Data -->
-  <img src="https://img.shields.io/badge/-Flask-black?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/-MySQL-black?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" />
-  <img src="https://img.shields.io/badge/-MongoDB-black?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/-Git-black?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-</p>
-
----
-
-### 📊 My GitHub Journey
+<h3 align="center">📊 GitHub Analytics</h3>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=anhdenday&show_icons=true&count_private=true&theme=nord&hide_border=false&cache_seconds=1800" alt="GitHub Stats" />
-  <img height="180" src="https://streak-stats.demolab.com/?user=anhdenday&theme=nord&hide_border=false" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/output/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/output/stats-light.svg" />
+    <img height="170" src="https://raw.githubusercontent.com/anhdenday/anhdenday/output/stats-dark.svg" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=anhdenday&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=BC8CFF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&border_radius=12" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=anhdenday&background=FFFFFF&border=D0D7DE&stroke=D0D7DE&ring=0969DA&fire=8250DF&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=0969DA&sideLabels=656D76&dates=656D76&border_radius=12" />
+    <img height="170" src="https://streak-stats.demolab.com/?user=anhdenday&background=0D1117&border=30363D&stroke=30363D&ring=58A6FF&fire=BC8CFF&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E&border_radius=12" alt="GitHub streak" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anhdenday&theme=nord" alt="Contribution Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/anhdenday/anhdenday/output/snake-light.svg" />
+    <img width="100%" src="https://raw.githubusercontent.com/anhdenday/anhdenday/output/snake-dark.svg" alt="Contribution graph" />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/anhdenday/anhdenday/actions/workflows/profile-cards.yml"><img src="https://img.shields.io/github/actions/workflow/status/anhdenday/anhdenday/profile-cards.yml?branch=main&label=cards%20refreshed&logo=githubactions&logoColor=white&style=flat-square" alt="Profile cards workflow status" /></a>
 </p>
 
 <!--
-  GHI CHÚ KỸ THUẬT — đọc trước khi sửa mấy URL ở trên.
+  GHI CHÚ KỸ THUẬT — đọc trước khi sửa các URL ở trên.
 
-  1) KHÔNG thêm lại `include_all_commits=true`.
-     Bản deploy `github-readme-stats-sigma-five` CỘNG TRÙNG: nó lấy số commit
-     all-time từ Search API rồi CỘNG THÊM số commit của năm nay.
-     Đo được: 101 (all-time) + 22 (năm nay) = 123, trong khi thực tế chỉ có 102.
+  Bố cục nguồn ảnh:
+    - assets/header-*.svg, assets/stack-*.svg : sinh bởi scripts/build_assets.py, commit sẵn
+      (đổi stack/tiêu đề thì sửa script rồi chạy lại `python3 scripts/build_assets.py`).
+    - nhánh `output` (stats-*.svg, snake-*.svg) : sinh bởi .github/workflows/profile-cards.yml,
+      chạy 2 lần/ngày. Muốn cập nhật ngay: tab Actions -> "Profile cards" -> Run workflow.
+    - streak-stats.demolab.com, readme-typing-svg.demolab.com, shields.io, komarev.com : dịch vụ ngoài.
 
-  2) `count_private=true` chỉ chạy khi đã bật:
-     Settings -> Profile -> Contributions & Activity
-       -> tick "Include private contributions on my profile"
-     ĐÃ BẬT ngày 2026-07-31. Trước khi bật: Total Commits = 22.
-     Sau khi bật: Total Commits = 929. Mọi repo đang làm việc (yenora-tech/*)
-     đều private nên nếu tắt setting này thì gần như không đếm được gì.
+  1) KHÔNG thêm lại `include_all_commits=true` (trong STATS_OPTS của workflow).
+     Bản github-readme-stats từng dùng CỘNG TRÙNG: lấy commit all-time từ Search API rồi
+     CỘNG THÊM commit năm nay. Đo được: 101 (all-time) + 22 (năm nay) = 123, thực tế chỉ 102.
 
-  3) `cache_seconds=1800` KHÔNG phải để đổi TTL (mirror vẫn trả max-age=7200),
-     mà để tạo cache key mới -> phá cache Vercel đang giữ số cũ. Nếu sau này
-     đổi setting trên GitHub mà card vẫn hiện số cũ, đổi giá trị này (vd 1801)
-     là ép fetch lại ngay thay vì chờ 2 tiếng.
+  2) Commit private — `count_private` KHÔNG còn tồn tại trong core mới (stats-organization v2),
+     thêm vào cũng bị bỏ qua. Card giờ hiện "Total Commits (last year)" = `totalCommitContributions`
+     trong 12 tháng gần nhất, NHÌN THEO QUYỀN CỦA TOKEN. Mọi repo đang làm việc (yenora-tech/*) đều
+     private, nên:
+       - Không có secret -> token mặc định của workflow -> chỉ đếm commit public (kiểu ~22).
+       - Có secret `GH_STATS_TOKEN` = PAT classic của chính anhdenday, scope `repo` + `read:user`
+         (Settings -> Secrets and variables -> Actions) -> đếm cả commit trong repo private.
+     Setting "Include private contributions on my profile" (Settings -> Profile -> Contributions & Activity,
+     ĐÃ BẬT 2026-07-31) vẫn phải giữ: streak card dựa vào nó mới ra ~4,067 contributions.
 
-  4) Card "Most Used Languages" đã bị bỏ vì nó hiện "ASP.NET 100%" — sai.
-     Card chỉ đọc repo non-fork public; repo duy nhất có code là `owllee`, trong
-     đó có 17 file .axd (ScriptResource.axd / WebResource.axd — rác save-page-as
-     của một site ASP.NET WebForms) bị Linguist đếm là ASP.NET. Thêm
-     `hide=html,css` che 2 language còn lại nên chỉ còn ASP.NET = 100%.
+  3) (Bỏ `cache_seconds`.) Card giờ là file tĩnh trên nhánh `output`; raw.githubusercontent.com
+     cache ~5 phút. Đổi setting GitHub mà muốn thấy số mới ngay -> Run workflow thủ công.
 
+  4) Card "Most Used Languages" vẫn TẮT vì sẽ hiện "ASP.NET 100%" — sai.
+     Card chỉ đọc repo non-fork của chính mình; repo duy nhất có code là `owllee`, trong đó có
+     17 file .axd (ScriptResource.axd / WebResource.axd — rác save-page-as của site ASP.NET WebForms)
+     bị Linguist đếm là ASP.NET.
      Bật lại cho ĐÚNG:
        a. Thêm .gitattributes vào repo owllee:
             HTX/**       linguist-vendored
             *.axd        linguist-detectable=false
             *.download   linguist-detectable=false
-       b. Self-host github-readme-stats bằng PAT scope `repo` của mình (để card
-          đọc được private repo), rồi dùng lại:
-            https://<domain-cua-ban>/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&theme=nord
+       b. Thêm secret `GH_STATS_TOKEN` là PAT scope `repo` + `read:user` (đọc được private repo),
+          rồi thêm 1 step vào workflow:
+            uses: stats-organization/github-readme-stats-action@v2
+            with: { card: top-langs, path: dist/top-langs-dark.svg, fail_on_error: true,
+                    token: ${{ env.STATS_TOKEN }},
+                    options: "username=anhdenday&layout=compact&langs_count=7&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&border_color=30363d&border_radius=12" }
+
+  5) Vì sao KHÔNG dùng lại instance public. Kiểm tra ngày 2026-09-13:
+       - github-readme-stats.vercel.app              -> 503 DEPLOYMENT_PAUSED
+       - github-readme-stats-sigma-five.vercel.app   -> "Maximum retries exceeded / add PAT_1" (lỗi cũ)
+       - github-readme-stats.hackclub.dev            -> "No GitHub API tokens found / add PAT_1"
+       - github-readme-activity-graph.vercel.app     -> 402 DEPLOYMENT_DISABLED (ảnh Contribution Graph vỡ)
+     Instance free chết/hết quota theo thời gian -> tự sinh bằng Actions là cách duy nhất ổn định.
+
+  6) `fail_on_error: true` + `continue-on-error` là CỐ Ý: khi GitHub API lỗi, action không ghi
+     card "Something went wrong" đè lên, mà giữ nguyên bản tốt gần nhất trên nhánh `output`;
+     run vẫn báo đỏ để có email.
+
+  7) `hide=stars,prs`: 0 star và 0 PR (PR trong repo org private không được đếm) chỉ làm card rối.
+     Muốn hiện lại thì bỏ `hide=...` khỏi STATS_OPTS.
+
+  8) GitHub tự TẮT workflow `schedule` nếu repo public không có hoạt động trong 60 ngày
+     (sẽ có email báo). Khi đó vào Actions -> "Profile cards" -> Enable workflow.
 -->
-
-<!-- Card cũ, chỉ bật lại sau khi làm xong bước (4) ở trên:
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=anhdenday&layout=compact&langs_count=7&theme=nord&hide_border=false" alt="Top Languages" />
--->
-
----
-
-<p align="center">
-   <img src="https://komarev.com/ghpvc/?username=anhdenday&color=brightgreen&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</p>

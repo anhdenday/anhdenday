@@ -1,0 +1,101 @@
+name: Profile cards
+
+# Sinh các card thống kê cho README rồi đẩy lên nhánh `output`.
+# Không dùng instance public (*.vercel.app) nữa — xem ghi chú (5) cuối README.md.
+
+on:
+  schedule:
+    - cron: "17 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      # NÊN có secret GH_STATS_TOKEN = PAT classic scope `repo` + `read:user` của chính anhdenday:
+      # chỉ khi đó commit trong repo private (yenora-tech/*) mới được đếm. Thiếu thì chạy bằng
+      # token mặc định và chỉ đếm commit public. Xem ghi chú (2) cuối README.md.
+      STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN || github.token }}
+      STATS_OPTS: username=${{ github.repository_owner }}&show_icons=true&rank_icon=github&hide=stars,prs&border_radius=12&hide_border=false
+
+    steps:
+      # Bắt đầu từ bộ card đang chạy tốt: card nào lỗi ở dưới thì giữ nguyên bản cũ.
+      - name: Load last good cards from the output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git init -q dist
+          cd dist
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git fetch -q --depth=1 origin output; then
+            git checkout -q FETCH_HEAD -- .
+          else
+            echo "No output branch yet (first run)."
+          fi
+
+      - name: Stats card (dark)
+        id: stats_dark
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.STATS_OPTS }}&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=bc8cff&ring_color=58a6ff&border_color=30363d
+          path: dist/stats-dark.svg
+          token: ${{ env.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Stats card (light)
+        id: stats_light
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: ${{ env.STATS_OPTS }}&bg_color=ffffff&title_color=0969da&text_color=1f2328&icon_color=8250df&ring_color=0969da&border_color=d0d7de
+          path: dist/stats-light.svg
+          token: ${{ env.STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Contribution snake
+        id: snake
+        continue-on-error: true
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ env.STATS_TOKEN }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#58a6ff
+            dist/snake-light.svg?palette=github-light&color_snake=#0969da
+
+      - name: Publish to the output branch
+        working-directory: dist
+        run: |
+          shopt -s nullglob
+          files=(*.svg)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "::error::No card was generated and there is no previous version to keep."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "chore: refresh profile cards"
+          git push -q -f origin HEAD:output
+
+      # Card lỗi đã được giữ bản cũ ở trên; vẫn đánh đỏ run để có email báo.
+      - name: Report cards that could not be refreshed
+        if: steps.stats_dark.outcome == 'failure' || steps.stats_light.outcome == 'failure' || steps.snake.outcome == 'failure'
+        run: |
+          echo "::error::stats_dark=${{ steps.stats_dark.outcome }} stats_light=${{ steps.stats_light.outcome }} snake=${{ steps.snake.outcome }} — last good version kept."
+          exit 1
